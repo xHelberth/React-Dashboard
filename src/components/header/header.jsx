@@ -32,12 +32,8 @@ class Header extends React.Component {
 
 				<div id="header" className='app-header'>
 					<div className="navbar-header">
-						<button type="button" className="navbar-mobile-toggler" onClick={this.toggleAppHeaderMegaMenuMobile}>
-							<span className="fa-stack fa-lg text-inverse">
-								<i className="far fa-square fa-stack-2x"></i>
-								<i className="fa fa-cog fa-stack-1x"></i>
-							</span>
-						</button>
+					<img src="../assets/img/user/reactjs.png" width="20%"  alt="" /> 
+
 					</div>
 
 					<DropdownMegaMenu collapse={this.state.appHeaderMegaMenuMobile} />
