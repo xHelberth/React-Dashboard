@@ -14,7 +14,7 @@ class Panel extends React.Component {
                                <h3 className="text-white text-left">Manage Shipments</h3>
                             </div>
                             <div className="col-xl-1 col-md-1">
-                               <h3 className="text-white">1502</h3>
+                               <h3 className="text-white">1523</h3>
                             </div>
                         </div>
 
